@@ -1,6 +1,8 @@
 # Chuck Norris Jokes
 
-An example Electron App with PowerShell Universal Dashboard and a PowerShell Pro Tools installer
+An example Electron App with PowerShell Universal Dashboard and a PowerShell Pro Tools installer.
+
+For a full explanation of this of this repository, read this [blog post](https://poshtools.com/2018/02/05/creating-desktop-app-universal-dashboard-installer-powershell-pro-tools/). 
 
 ## What you need to run this example
 
