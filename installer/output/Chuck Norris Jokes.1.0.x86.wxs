@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Language="1033" Name="Chuck Norris Jokes" Version="1.0" Manufacturer="Ironman Software, LLC" UpgradeCode="1a73a1be-50e6-4e92-af03-586f4a9d9e82">
+    <Package InstallScope="perUser" InstallPrivileges="limited" Comments="Chuck Norris Jokes" InstallerVersion="200" Platform="x86" />
+    <Media Id="1" Cabinet="cab1.cab" EmbedCab="yes" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="LocalAppDataFolder" Name="LocalAppDataFolder">
+        <Directory Id="dir89bc91ae67da43f685f683fc131561df" Name="Chuck Norris Jokes">
+          <Directory Id="dira06559eaa547469e823d15e9f34e0e07" Name="app">
+            <Directory Id="dir7b3e1427f5574ab992191636013fbcd4" Name="locales">
+              <Component Id="cmpebd6deb3bb144a269fc9b807e0a597a4" Guid="*">
+                <File Id="fil7574c2a291cf44769d84af7080c68473" Source="C:\src\chuck-norris\app\locales\am.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpf8d57a52d09e410d8d5c5ab85bacb6bd" Guid="*">
+                <File Id="fil11e1c656558146dab2a2977e9006a1fb" Source="C:\src\chuck-norris\app\locales\ar.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp32154b5183ba4c6291e953ffb3177489" Guid="*">
+                <File Id="fil23dbe0518bed45729b11fa284793ed44" Source="C:\src\chuck-norris\app\locales\bg.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpb1c5b06627144b5faa5edc5c7fac4ec3" Guid="*">
+                <File Id="fild3af5c46df164be78b1b18a74be8179d" Source="C:\src\chuck-norris\app\locales\bn.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp1565e516ce3e4deebf88c9bd09a8ee77" Guid="*">
+                <File Id="file0623e3e7e2744b49e0ab5992ffa5141" Source="C:\src\chuck-norris\app\locales\ca.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp38bbf60c66b744988174c511b4a09ffd" Guid="*">
+                <File Id="fil03974983313043a4b4fad900dfbe1c6e" Source="C:\src\chuck-norris\app\locales\cs.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp701b1d293d144da090bc4db8bf225270" Guid="*">
+                <File Id="fil82e514d6650d4a2dae897ab7e6f0d8d5" Source="C:\src\chuck-norris\app\locales\da.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp5e05127d86dd40ce9b86ae315caab441" Guid="*">
+                <File Id="fil4b88b8093daa47768adcfc5eab79f23b" Source="C:\src\chuck-norris\app\locales\de.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp5753e6f0868b4f14a58c1bc5f60a6ca4" Guid="*">
+                <File Id="fild60fd50324c24b9fbe31b291650d7bbd" Source="C:\src\chuck-norris\app\locales\el.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp9a9db4199c5949a9bd984045968e4860" Guid="*">
+                <File Id="fil737e3e6446f742c7b356236ce1c15f0b" Source="C:\src\chuck-norris\app\locales\en-GB.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp328899a345db4ed29698433b9e62dc45" Guid="*">
+                <File Id="fil6a25419402954fab9948c2389b482409" Source="C:\src\chuck-norris\app\locales\en-US.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpbe327de97f734bec8e2d2d67b794f502" Guid="*">
+                <File Id="file9a4cea53cd74351a9fffad8e8fd7669" Source="C:\src\chuck-norris\app\locales\es-419.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpe9161648b6454e759df86a60f2e16c77" Guid="*">
+                <File Id="fil2f6350c55c794cdb828fffcc1498c27e" Source="C:\src\chuck-norris\app\locales\es.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp1aed73a089524531a858f41f6a803971" Guid="*">
+                <File Id="filafb9e544d581460eae144847c108df9a" Source="C:\src\chuck-norris\app\locales\et.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpab2f59f1b0a1432aac9b16b546ab7b2a" Guid="*">
+                <File Id="fil88a812a2ed734dfaa8cbd209f89bbb9e" Source="C:\src\chuck-norris\app\locales\fa.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp1612be970e57487b970bf15db4755588" Guid="*">
+                <File Id="fildc5ed5894d14495f9e7d472721ba48c5" Source="C:\src\chuck-norris\app\locales\fake-bidi.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpe9b764440bd64273bcb2b37d1b90e329" Guid="*">
+                <File Id="fil60a59d1721334d87924340684a98ddc0" Source="C:\src\chuck-norris\app\locales\fi.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp5874fb28b5704e30b0497065f42d14ee" Guid="*">
+                <File Id="filcd161d5801134af38a5cc40e60cefd6c" Source="C:\src\chuck-norris\app\locales\fil.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp88f88ff64d114edb816740c3c67f8c0d" Guid="*">
+                <File Id="fil782ad69d20cc4a46a1410b439c75482c" Source="C:\src\chuck-norris\app\locales\fr.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp021468edc442474683af368247df6a45" Guid="*">
+                <File Id="filcad6364aaef9481286e92bef49d54c7a" Source="C:\src\chuck-norris\app\locales\gu.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp011aaf5e615648ddb48cd47cd9e13b91" Guid="*">
+                <File Id="fil1f254d28cb6649b9976bf14629d69fbc" Source="C:\src\chuck-norris\app\locales\he.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp86d38d24074d43199b6fdc4a602b8187" Guid="*">
+                <File Id="fil54e961fca2ec4c168052b4e518f7cc54" Source="C:\src\chuck-norris\app\locales\hi.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp97035fdb3fa14d05b37e86b608cc1a5b" Guid="*">
+                <File Id="fil396392770e0a4214b63652cb55f9bccc" Source="C:\src\chuck-norris\app\locales\hr.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpfa1c05f61fc3419f8104b4e7ccf671ba" Guid="*">
+                <File Id="fil1ef3182b3404420fac4361386946074d" Source="C:\src\chuck-norris\app\locales\hu.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpdaed7aa1e2fd44bbaab006fbb8d3b63f" Guid="*">
+                <File Id="fil060993a3659d41eaad6ed956e5cde1dd" Source="C:\src\chuck-norris\app\locales\id.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp5a1b367a6b38422d8ac273b0fab5eb7e" Guid="*">
+                <File Id="fil0e6bde7090d24944885f43f9826bb643" Source="C:\src\chuck-norris\app\locales\it.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpdc922c0829e442bb911f7891e9dad14a" Guid="*">
+                <File Id="filc803c0d6247b402da40939790440cc49" Source="C:\src\chuck-norris\app\locales\ja.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpbb2354676228493e81b278f6a7018727" Guid="*">
+                <File Id="fil6dbe705c048e41aabe9d73666c918b04" Source="C:\src\chuck-norris\app\locales\kn.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp18ae60494be848b486b2669df577f977" Guid="*">
+                <File Id="fil184b1434f23d4df7ad2f956151f239a6" Source="C:\src\chuck-norris\app\locales\ko.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpe3eae7035b43446fadee796ffda54fb7" Guid="*">
+                <File Id="filb36d873ca41c4233808993ffd5144cbd" Source="C:\src\chuck-norris\app\locales\lt.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp7786f11b84a643c8a1538baa5cf8a62b" Guid="*">
+                <File Id="fil971182d52bd847d7b0c3c8c757a5e7cc" Source="C:\src\chuck-norris\app\locales\lv.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpdcba549c5c0c460ca89e09703f98c041" Guid="*">
+                <File Id="fil4b43d032a2cb4e629bafbd05f45a6227" Source="C:\src\chuck-norris\app\locales\ml.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpfd39051da3cf4944a8773dfe4008d7bd" Guid="*">
+                <File Id="filcbe13a41be9d43e7a855f08a4b13367f" Source="C:\src\chuck-norris\app\locales\mr.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp9dc9a335dd454ef6937f012f4ef156b0" Guid="*">
+                <File Id="fil24c6efd5a49e422690e8ab0a390e6af6" Source="C:\src\chuck-norris\app\locales\ms.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp0e8e7027c118401884a3e79c9b2fd26c" Guid="*">
+                <File Id="fil4b05bb6585e04640803d098a40503f1f" Source="C:\src\chuck-norris\app\locales\nb.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpccf713f5376147afb3f00e677f7a45e4" Guid="*">
+                <File Id="filb6d99c2debb84289b3e113ac7b85dfe1" Source="C:\src\chuck-norris\app\locales\nl.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpf6e34672fc85418daf2abe5e575f9033" Guid="*">
+                <File Id="fil887ea46915744d5097b7882a315a3509" Source="C:\src\chuck-norris\app\locales\pl.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp42e8a22cf4f446c8ae56f8581ebe440c" Guid="*">
+                <File Id="fil92847c83207948c38350ca3e1a68c146" Source="C:\src\chuck-norris\app\locales\pt-BR.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpe1a46bfc1da0430cb84a8bb7dc2f6f44" Guid="*">
+                <File Id="fil581c538e7b10485d8dbdbc851508296f" Source="C:\src\chuck-norris\app\locales\pt-PT.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpbe808573aafa4fffa5c1b83f81aa34b4" Guid="*">
+                <File Id="fila8655c86f7f9427a9a8935b7a9af9a27" Source="C:\src\chuck-norris\app\locales\ro.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpda11272458a14fd596548c3870f21edb" Guid="*">
+                <File Id="fil27c966965b5940c5b520ce7a610aef58" Source="C:\src\chuck-norris\app\locales\ru.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpd9c91117b5114a61ab8e2460b8879f10" Guid="*">
+                <File Id="fild72a565d757d4280bfbd63769c257531" Source="C:\src\chuck-norris\app\locales\sk.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp49826ea1410d4f5c8a53479594a23ecf" Guid="*">
+                <File Id="fil639ff12959924bd6bd73b34030bd6a9d" Source="C:\src\chuck-norris\app\locales\sl.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp10177e1bdd094feab9dbda8302a6e074" Guid="*">
+                <File Id="fil5bc74494bfbe4f15b2c5ada7a455ed45" Source="C:\src\chuck-norris\app\locales\sr.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpcb80a58a4409478f8b540e69405404bb" Guid="*">
+                <File Id="filfdd49da840724969aefe1eea1e2aaa2a" Source="C:\src\chuck-norris\app\locales\sv.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp775762635c594c56bc38e323571e4362" Guid="*">
+                <File Id="filae8deb1ab6f84e1a8a4ba3052ea8885e" Source="C:\src\chuck-norris\app\locales\sw.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp3d6267dacfe9447ea5e92abb82e27a4f" Guid="*">
+                <File Id="filc1c7294568c84c9ba9a727303bd1e547" Source="C:\src\chuck-norris\app\locales\ta.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpe875f0810e3549689769a21608f00dc1" Guid="*">
+                <File Id="fil86707ff6f3f24d268339e9d2d387df3b" Source="C:\src\chuck-norris\app\locales\te.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp6dc868ea7222460c97aed8e4a38f8234" Guid="*">
+                <File Id="fil19b31d83876443bc9d6a6e1f88649816" Source="C:\src\chuck-norris\app\locales\th.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp5d690ce5b03c45cb9403de23b945f7ad" Guid="*">
+                <File Id="file25326460bfd45eaa90353bf099c4faa" Source="C:\src\chuck-norris\app\locales\tr.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpa5f169b4c238408ebd43ada01e73811d" Guid="*">
+                <File Id="fil07b8609d9fe84d7eaf13a5b20e1ae571" Source="C:\src\chuck-norris\app\locales\uk.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpb60341b0b5c54daf97a6d8cdb9fc11c8" Guid="*">
+                <File Id="fil41382c0d2ad44026abaad8b17abf528d" Source="C:\src\chuck-norris\app\locales\vi.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpc6b5a1102b334f748b7cbb2b4ec7906e" Guid="*">
+                <File Id="filce139bcad6f14ae594c3df57ff36ab35" Source="C:\src\chuck-norris\app\locales\zh-CN.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmp3e74a1018ca4494f8678021a4c2acfde" Guid="*">
+                <File Id="fil8e5bbc8b66114c8eb3996f6d02290951" Source="C:\src\chuck-norris\app\locales\zh-TW.pak" KeyPath="yes" Checksum="yes" />
+              </Component>
+            </Directory>
+            <Directory Id="dirfd2d18839131418da80ec388d3b142a0" Name="resources">
+              <Directory Id="dir4ef693352d83479796ea81a67fcafb54" Name="app">
+                <Component Id="cmpa072f9ea72234329b9d8a155aada1e7a" Guid="*">
+                  <File Id="fila572fdb21c9b452ea5a3021e9256c42a" Source="C:\src\chuck-norris\app\resources\app\dashboard.ps1" KeyPath="yes" Checksum="yes" />
+                </Component>
+                <Component Id="cmp8d3ffc5d82b9481fb050fa5c6e6b8b31" Guid="*">
+                  <File Id="fil540b36ca331446908cb5e1fe3bff0f5b" Source="C:\src\chuck-norris\app\resources\app\main.js" KeyPath="yes" Checksum="yes" />
+                </Component>
+                <Component Id="cmp70af4312fe104a06ac3f97a885841fc7" Guid="*">
+                  <File Id="fil755a4145e81d4a7c955db8d80fb3e708" Source="C:\src\chuck-norris\app\resources\app\package.json" KeyPath="yes" Checksum="yes" />
+                </Component>
+              </Directory>
+              <Component Id="cmp7bcd2810dec649118c8dae7d979ddbe7" Guid="*">
+                <File Id="fil03861cd88b28429a8e594a6dd2b9946b" Source="C:\src\chuck-norris\app\resources\default_app.asar" KeyPath="yes" Checksum="yes" />
+              </Component>
+              <Component Id="cmpb3ea45a5e3b141488f23beec637c4e36" Guid="*">
+                <File Id="filed7cae1c78664875b96596f54ffe999b" Source="C:\src\chuck-norris\app\resources\electron.asar" KeyPath="yes" Checksum="yes" />
+              </Component>
+            </Directory>
+            <Component Id="cmp4f8faad25a03480c91244bf68dd53f90" Guid="*">
+              <File Id="fila1973df04e964c98ae1faf8c639f55f7" Source="C:\src\chuck-norris\app\api-ms-win-core-console-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp19d42ccc4e9a4103b26096b36986f049" Guid="*">
+              <File Id="fila57719dbc28a45988b25bde88dd6755f" Source="C:\src\chuck-norris\app\api-ms-win-core-datetime-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpbc634cfc44f74b9381fdd3e55d8f35e2" Guid="*">
+              <File Id="filf8ba8e407b234160b3a422386209fa82" Source="C:\src\chuck-norris\app\api-ms-win-core-debug-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp4fdf1a5061ca4c339cb28db25154b3c1" Guid="*">
+              <File Id="fil19af470819c24a74b5f99552138896ad" Source="C:\src\chuck-norris\app\api-ms-win-core-errorhandling-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp38c84783a7aa427090cec0deefe67db7" Guid="*">
+              <File Id="fila9ad86e106af4f29ae77175dc35aa829" Source="C:\src\chuck-norris\app\api-ms-win-core-file-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp8ceda8d5094a495eb3f3991b4fe334cf" Guid="*">
+              <File Id="fila27554edfb2e4a82b6703c711eac259a" Source="C:\src\chuck-norris\app\api-ms-win-core-file-l1-2-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp2a441ccb245a45e5984945fc9729689f" Guid="*">
+              <File Id="fil70c47e880742431a94bd750dbfe5bbba" Source="C:\src\chuck-norris\app\api-ms-win-core-file-l2-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpf4fbdaac8d5e4f43bcfddcac613395f5" Guid="*">
+              <File Id="filfc76aa89a73e408db62cd4493a319550" Source="C:\src\chuck-norris\app\api-ms-win-core-handle-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp044b771f54d646ebaa26cbd2cbaa2d76" Guid="*">
+              <File Id="filcaf8ab965ec04c6b99dd7930c4bdff8f" Source="C:\src\chuck-norris\app\api-ms-win-core-heap-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp5401d40bba6d41cea5d3798fc73a9edc" Guid="*">
+              <File Id="fil1763d3f4fb414a408a7bedbff47b9493" Source="C:\src\chuck-norris\app\api-ms-win-core-interlocked-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpc753c0e9adae4c71b8ef6febcf778411" Guid="*">
+              <File Id="filabe1ea392d7442e5bfd9e63ceeac2bd9" Source="C:\src\chuck-norris\app\api-ms-win-core-libraryloader-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp499abfe3778a4ebd85ac0af11d7b03ec" Guid="*">
+              <File Id="fil27400e517cda4aa78a9eb1353c032634" Source="C:\src\chuck-norris\app\api-ms-win-core-localization-l1-2-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp11fe7f3869134ce88b7f370b51d2c37f" Guid="*">
+              <File Id="fil81a0740616474c3fa1d18e8a5f0b7252" Source="C:\src\chuck-norris\app\api-ms-win-core-memory-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp60d7fbc88b5b43f28c16f3c859901a6a" Guid="*">
+              <File Id="fil454a07126ab04ec2a0b021b856f402e4" Source="C:\src\chuck-norris\app\api-ms-win-core-namedpipe-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp1cf5cdfab4d34f1e8f0963c4576e3c9e" Guid="*">
+              <File Id="filbd174a67da6c4099b5c8804c6d355eed" Source="C:\src\chuck-norris\app\api-ms-win-core-processenvironment-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpb42f6530f6ba46c99a107898b33ad29a" Guid="*">
+              <File Id="fil268be43dddb241ad811bbcc79bda3c56" Source="C:\src\chuck-norris\app\api-ms-win-core-processthreads-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp039cbc12726e4a9e826563a74639a378" Guid="*">
+              <File Id="fil7394809545d74b78bebf2128faa50af6" Source="C:\src\chuck-norris\app\api-ms-win-core-processthreads-l1-1-1.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp17326c65f9cd4a71aa4575627455a1b4" Guid="*">
+              <File Id="fil96deaa79e541479a8eab2c525d69f22f" Source="C:\src\chuck-norris\app\api-ms-win-core-profile-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp034dc1fd96884d51b20b0d8b5d6ff105" Guid="*">
+              <File Id="file573e8ed0c614310a29f9805bebb861e" Source="C:\src\chuck-norris\app\api-ms-win-core-rtlsupport-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpe67bcd25359748b6bb87afe4c1abc52a" Guid="*">
+              <File Id="fil335b8dc77acd4bbaa765e74d0af255c5" Source="C:\src\chuck-norris\app\api-ms-win-core-string-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpffeff4a2cbcf45c5b9df6ece7e8a62c0" Guid="*">
+              <File Id="fil9b525970b5ed4433ae8e391a4af5d47c" Source="C:\src\chuck-norris\app\api-ms-win-core-synch-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp69a70328d60e4a09b5665606ba9bd589" Guid="*">
+              <File Id="fil07e76570649041c1881990a4174946c4" Source="C:\src\chuck-norris\app\api-ms-win-core-synch-l1-2-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp56b8b5cf121241bea57ffc872a9f75e1" Guid="*">
+              <File Id="fil8c05ae56284d4fe0b4af467f31571ebd" Source="C:\src\chuck-norris\app\api-ms-win-core-sysinfo-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp12426dce49b74fa7953488fb9626b957" Guid="*">
+              <File Id="file8299f86759e48fc9fa9075d829e154f" Source="C:\src\chuck-norris\app\api-ms-win-core-timezone-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp3a224b5b0dbe4a85836f7183b9d66818" Guid="*">
+              <File Id="filbdc721c548b841d1b177a2cd20284487" Source="C:\src\chuck-norris\app\api-ms-win-core-util-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp2e24229e9b3c45e393a418db1add9d51" Guid="*">
+              <File Id="filbf2d41bd8e4e44a6981ec84794d109cb" Source="C:\src\chuck-norris\app\api-ms-win-crt-conio-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpeec42380152a49bca5ad8317fb75a7b2" Guid="*">
+              <File Id="fil370b38b2cdbe4cfab56f37031b345469" Source="C:\src\chuck-norris\app\api-ms-win-crt-convert-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpeb10e3a2469d4975b988456f295d31e3" Guid="*">
+              <File Id="filb25652902fc64a97ade8305631fb6250" Source="C:\src\chuck-norris\app\api-ms-win-crt-environment-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpad81890b407c4a50924414150a7f99b3" Guid="*">
+              <File Id="fil96f989e02b304b2b84d92a78919222b7" Source="C:\src\chuck-norris\app\api-ms-win-crt-filesystem-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp817f75b509074839bfe6b8b36d93a0d5" Guid="*">
+              <File Id="fil52f9cdefdc1c4361a9994f6bd4db4ee5" Source="C:\src\chuck-norris\app\api-ms-win-crt-heap-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp6b81098826864790b7f3d91989337533" Guid="*">
+              <File Id="fil65219f1af8254954a522519d3d25dfc3" Source="C:\src\chuck-norris\app\api-ms-win-crt-locale-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpcc27ffe7b25a44d2a970b0f4026931e4" Guid="*">
+              <File Id="fil62698101fd6b45afabf05a0f90c7b507" Source="C:\src\chuck-norris\app\api-ms-win-crt-math-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp6156182d22ed4c63b89c90cfc9bafec8" Guid="*">
+              <File Id="fil219cc9f6f9764f28990d9c7a1d4d68cb" Source="C:\src\chuck-norris\app\api-ms-win-crt-multibyte-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpa66ed56e446a48aabcf51e0ca69bd432" Guid="*">
+              <File Id="fil0ebe372df8e2439b820f385153bd63c2" Source="C:\src\chuck-norris\app\api-ms-win-crt-private-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp5b53f10b9fa74706a09b528c2c14d8f6" Guid="*">
+              <File Id="fil1e784d2a92024e878d3fee0eff449c34" Source="C:\src\chuck-norris\app\api-ms-win-crt-process-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp3ff77de823c8433a93e9b381a2ecc6f5" Guid="*">
+              <File Id="fil7407fe2284324b6e83a7cb6202fcdc30" Source="C:\src\chuck-norris\app\api-ms-win-crt-runtime-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp98af561684e146beaf93f2214cd86e11" Guid="*">
+              <File Id="fil4a8d2d5dc96748cc8170fc84e01fd6f9" Source="C:\src\chuck-norris\app\api-ms-win-crt-stdio-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpe9a23e49c512420c8b4332533397383d" Guid="*">
+              <File Id="fil5baa2937e6e147219046417464e3da75" Source="C:\src\chuck-norris\app\api-ms-win-crt-string-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpc754e60669dc4d9698774c1a944ab7ba" Guid="*">
+              <File Id="fil9c6459b817844c24b9180ba697a63604" Source="C:\src\chuck-norris\app\api-ms-win-crt-time-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpbe94b9d573b349fcb2e98ff0caea4d08" Guid="*">
+              <File Id="fil490e54eae38847b3873c3ddef4acf6ab" Source="C:\src\chuck-norris\app\api-ms-win-crt-utility-l1-1-0.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp3b70b453539c4d699d4bdbe59619eb70" Guid="*">
+              <File Id="fil47fd44b4fe1e434fbdc4c463fb9fed2b" Source="C:\src\chuck-norris\app\blink_image_resources_200_percent.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpac2512695a11477ea2d045d4ffb15069" Guid="*">
+              <File Id="file487415d6e4b4f73a87c6e2d8099c5a3" Source="C:\src\chuck-norris\app\content_resources_200_percent.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpec29c52c8e574f45bfc7e2a7651b1f24" Guid="*">
+              <File Id="filfd074796bc724255be1d58ee9b8898b0" Source="C:\src\chuck-norris\app\content_shell.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp5f57c648ef2949d5a6f5d418f60018bf" Guid="*">
+              <File Id="fil88f0072fb31545bdbb1485412ba9345b" Source="C:\src\chuck-norris\app\d3dcompiler_47.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp8db7d5e83c5843ec9dd0f9ebb737aad1" Guid="*">
+              <File Id="main_app" Source="C:\src\chuck-norris\app\electron.exe" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpd9d2762219e448599aad6a9dffd550ab" Guid="*">
+              <File Id="file9b6c6dc4a2048608fc6bcacc5b6bb79" Source="C:\src\chuck-norris\app\ffmpeg.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp9ef67cb1f4184a26a8eb38b79f82e948" Guid="*">
+              <File Id="filc2e961b9a7e043609b724ecf94784ab2" Source="C:\src\chuck-norris\app\icudtl.dat" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp3cd791eb49ae47d3bda5740112b07f13" Guid="*">
+              <File Id="fil3dd73ea801194d20b8951f7441725e71" Source="C:\src\chuck-norris\app\libEGL.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp1ca1f192272a4cfb99022ff52675af0d" Guid="*">
+              <File Id="fil27e7b6df0b9141b480663e5347e8151c" Source="C:\src\chuck-norris\app\libGLESv2.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp31af63bd82da4dfc92560cebe0e1a7d4" Guid="*">
+              <File Id="fil90da15f147fd4f56981c7c0ea9aa60a3" Source="C:\src\chuck-norris\app\LICENSE" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpb01ce6dd16174d2ba376383500011e54" Guid="*">
+              <File Id="fil3ebd0e2f5e344c2ca16124a85f3004a8" Source="C:\src\chuck-norris\app\LICENSES.chromium.html" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp9101bf2cdee7411d8ffda3a500449276" Guid="*">
+              <File Id="filf9352097d45f47979cf4b929ad993ca2" Source="C:\src\chuck-norris\app\msvcp140.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp12222469cd914e6f8593a2cd1ef6ab21" Guid="*">
+              <File Id="fild81dd6721b0648278523730375abc40c" Source="C:\src\chuck-norris\app\natives_blob.bin" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpbd53e01d8ed04509853e2e654be9eb31" Guid="*">
+              <File Id="filc18e2e7c84ca4c409fb1070bf58f88de" Source="C:\src\chuck-norris\app\node.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpa041a155d7e54635a5493b67fac94dce" Guid="*">
+              <File Id="filabc5ea373cc4428ab66230af86a8539b" Source="C:\src\chuck-norris\app\pdf_viewer_resources.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp1758c1090ec04edfb853c3de3d8c42de" Guid="*">
+              <File Id="fil2ebd4b5587c3409cb75674593ed998f8" Source="C:\src\chuck-norris\app\snapshot_blob.bin" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp394daa756bc64044aa567d64b0a358fa" Guid="*">
+              <File Id="fil2aed36e17b0e4107bc642490268060b4" Source="C:\src\chuck-norris\app\ucrtbase.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp522782e1418745abbf32c81ae116be64" Guid="*">
+              <File Id="fil91ee5a14f3624653a4b5e4f93a41e0f7" Source="C:\src\chuck-norris\app\ui_resources_200_percent.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp342849a2a2ed4cd7bc6689f10eee891d" Guid="*">
+              <File Id="fil075ebc1d51504a41b583ecafd45c387a" Source="C:\src\chuck-norris\app\vcruntime140.dll" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmp0fa67ccc32e249bcbe40e259edbdfd8e" Guid="*">
+              <File Id="fil2d0805e65cf245758092bf874001c789" Source="C:\src\chuck-norris\app\version" KeyPath="yes" Checksum="yes" />
+            </Component>
+            <Component Id="cmpcbd59dbe15f24a50ad3a96ca49dbf25c" Guid="*">
+              <File Id="filed1c929d28544ad4a5bd8421db587c8f" Source="C:\src\chuck-norris\app\views_resources_200_percent.pak" KeyPath="yes" Checksum="yes" />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="DesktopFolder" Name="DesktopFolder">
+        <Component Id="cmp33d3d21967d342729e7f7bb4f3f48252" Guid="*">
+          <Shortcut Id="shte33ba0e6ae624fabba5efcd70745d06c" Name="Chuck Norris Jokes" Target="[#main_app]" Icon="icob860258ce9704e758d0d5549e5d106e5" />
+          <RegistryValue Root="HKCU" Key="Software\Ironman Software, LLC\Chuck Norris Jokes" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+        </Component>
+      </Directory>
+    </Directory>
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <Feature Id="CHUCK_NORRIS_JOKES" Title="Chuck Norris Jokes" Level="1">
+      <ComponentRef Id="cmpebd6deb3bb144a269fc9b807e0a597a4" />
+      <ComponentRef Id="cmpf8d57a52d09e410d8d5c5ab85bacb6bd" />
+      <ComponentRef Id="cmp32154b5183ba4c6291e953ffb3177489" />
+      <ComponentRef Id="cmpb1c5b06627144b5faa5edc5c7fac4ec3" />
+      <ComponentRef Id="cmp1565e516ce3e4deebf88c9bd09a8ee77" />
+      <ComponentRef Id="cmp38bbf60c66b744988174c511b4a09ffd" />
+      <ComponentRef Id="cmp701b1d293d144da090bc4db8bf225270" />
+      <ComponentRef Id="cmp5e05127d86dd40ce9b86ae315caab441" />
+      <ComponentRef Id="cmp5753e6f0868b4f14a58c1bc5f60a6ca4" />
+      <ComponentRef Id="cmp9a9db4199c5949a9bd984045968e4860" />
+      <ComponentRef Id="cmp328899a345db4ed29698433b9e62dc45" />
+      <ComponentRef Id="cmpbe327de97f734bec8e2d2d67b794f502" />
+      <ComponentRef Id="cmpe9161648b6454e759df86a60f2e16c77" />
+      <ComponentRef Id="cmp1aed73a089524531a858f41f6a803971" />
+      <ComponentRef Id="cmpab2f59f1b0a1432aac9b16b546ab7b2a" />
+      <ComponentRef Id="cmp1612be970e57487b970bf15db4755588" />
+      <ComponentRef Id="cmpe9b764440bd64273bcb2b37d1b90e329" />
+      <ComponentRef Id="cmp5874fb28b5704e30b0497065f42d14ee" />
+      <ComponentRef Id="cmp88f88ff64d114edb816740c3c67f8c0d" />
+      <ComponentRef Id="cmp021468edc442474683af368247df6a45" />
+      <ComponentRef Id="cmp011aaf5e615648ddb48cd47cd9e13b91" />
+      <ComponentRef Id="cmp86d38d24074d43199b6fdc4a602b8187" />
+      <ComponentRef Id="cmp97035fdb3fa14d05b37e86b608cc1a5b" />
+      <ComponentRef Id="cmpfa1c05f61fc3419f8104b4e7ccf671ba" />
+      <ComponentRef Id="cmpdaed7aa1e2fd44bbaab006fbb8d3b63f" />
+      <ComponentRef Id="cmp5a1b367a6b38422d8ac273b0fab5eb7e" />
+      <ComponentRef Id="cmpdc922c0829e442bb911f7891e9dad14a" />
+      <ComponentRef Id="cmpbb2354676228493e81b278f6a7018727" />
+      <ComponentRef Id="cmp18ae60494be848b486b2669df577f977" />
+      <ComponentRef Id="cmpe3eae7035b43446fadee796ffda54fb7" />
+      <ComponentRef Id="cmp7786f11b84a643c8a1538baa5cf8a62b" />
+      <ComponentRef Id="cmpdcba549c5c0c460ca89e09703f98c041" />
+      <ComponentRef Id="cmpfd39051da3cf4944a8773dfe4008d7bd" />
+      <ComponentRef Id="cmp9dc9a335dd454ef6937f012f4ef156b0" />
+      <ComponentRef Id="cmp0e8e7027c118401884a3e79c9b2fd26c" />
+      <ComponentRef Id="cmpccf713f5376147afb3f00e677f7a45e4" />
+      <ComponentRef Id="cmpf6e34672fc85418daf2abe5e575f9033" />
+      <ComponentRef Id="cmp42e8a22cf4f446c8ae56f8581ebe440c" />
+      <ComponentRef Id="cmpe1a46bfc1da0430cb84a8bb7dc2f6f44" />
+      <ComponentRef Id="cmpbe808573aafa4fffa5c1b83f81aa34b4" />
+      <ComponentRef Id="cmpda11272458a14fd596548c3870f21edb" />
+      <ComponentRef Id="cmpd9c91117b5114a61ab8e2460b8879f10" />
+      <ComponentRef Id="cmp49826ea1410d4f5c8a53479594a23ecf" />
+      <ComponentRef Id="cmp10177e1bdd094feab9dbda8302a6e074" />
+      <ComponentRef Id="cmpcb80a58a4409478f8b540e69405404bb" />
+      <ComponentRef Id="cmp775762635c594c56bc38e323571e4362" />
+      <ComponentRef Id="cmp3d6267dacfe9447ea5e92abb82e27a4f" />
+      <ComponentRef Id="cmpe875f0810e3549689769a21608f00dc1" />
+      <ComponentRef Id="cmp6dc868ea7222460c97aed8e4a38f8234" />
+      <ComponentRef Id="cmp5d690ce5b03c45cb9403de23b945f7ad" />
+      <ComponentRef Id="cmpa5f169b4c238408ebd43ada01e73811d" />
+      <ComponentRef Id="cmpb60341b0b5c54daf97a6d8cdb9fc11c8" />
+      <ComponentRef Id="cmpc6b5a1102b334f748b7cbb2b4ec7906e" />
+      <ComponentRef Id="cmp3e74a1018ca4494f8678021a4c2acfde" />
+      <ComponentRef Id="cmpa072f9ea72234329b9d8a155aada1e7a" />
+      <ComponentRef Id="cmp8d3ffc5d82b9481fb050fa5c6e6b8b31" />
+      <ComponentRef Id="cmp70af4312fe104a06ac3f97a885841fc7" />
+      <ComponentRef Id="cmp7bcd2810dec649118c8dae7d979ddbe7" />
+      <ComponentRef Id="cmpb3ea45a5e3b141488f23beec637c4e36" />
+      <ComponentRef Id="cmp4f8faad25a03480c91244bf68dd53f90" />
+      <ComponentRef Id="cmp19d42ccc4e9a4103b26096b36986f049" />
+      <ComponentRef Id="cmpbc634cfc44f74b9381fdd3e55d8f35e2" />
+      <ComponentRef Id="cmp4fdf1a5061ca4c339cb28db25154b3c1" />
+      <ComponentRef Id="cmp38c84783a7aa427090cec0deefe67db7" />
+      <ComponentRef Id="cmp8ceda8d5094a495eb3f3991b4fe334cf" />
+      <ComponentRef Id="cmp2a441ccb245a45e5984945fc9729689f" />
+      <ComponentRef Id="cmpf4fbdaac8d5e4f43bcfddcac613395f5" />
+      <ComponentRef Id="cmp044b771f54d646ebaa26cbd2cbaa2d76" />
+      <ComponentRef Id="cmp5401d40bba6d41cea5d3798fc73a9edc" />
+      <ComponentRef Id="cmpc753c0e9adae4c71b8ef6febcf778411" />
+      <ComponentRef Id="cmp499abfe3778a4ebd85ac0af11d7b03ec" />
+      <ComponentRef Id="cmp11fe7f3869134ce88b7f370b51d2c37f" />
+      <ComponentRef Id="cmp60d7fbc88b5b43f28c16f3c859901a6a" />
+      <ComponentRef Id="cmp1cf5cdfab4d34f1e8f0963c4576e3c9e" />
+      <ComponentRef Id="cmpb42f6530f6ba46c99a107898b33ad29a" />
+      <ComponentRef Id="cmp039cbc12726e4a9e826563a74639a378" />
+      <ComponentRef Id="cmp17326c65f9cd4a71aa4575627455a1b4" />
+      <ComponentRef Id="cmp034dc1fd96884d51b20b0d8b5d6ff105" />
+      <ComponentRef Id="cmpe67bcd25359748b6bb87afe4c1abc52a" />
+      <ComponentRef Id="cmpffeff4a2cbcf45c5b9df6ece7e8a62c0" />
+      <ComponentRef Id="cmp69a70328d60e4a09b5665606ba9bd589" />
+      <ComponentRef Id="cmp56b8b5cf121241bea57ffc872a9f75e1" />
+      <ComponentRef Id="cmp12426dce49b74fa7953488fb9626b957" />
+      <ComponentRef Id="cmp3a224b5b0dbe4a85836f7183b9d66818" />
+      <ComponentRef Id="cmp2e24229e9b3c45e393a418db1add9d51" />
+      <ComponentRef Id="cmpeec42380152a49bca5ad8317fb75a7b2" />
+      <ComponentRef Id="cmpeb10e3a2469d4975b988456f295d31e3" />
+      <ComponentRef Id="cmpad81890b407c4a50924414150a7f99b3" />
+      <ComponentRef Id="cmp817f75b509074839bfe6b8b36d93a0d5" />
+      <ComponentRef Id="cmp6b81098826864790b7f3d91989337533" />
+      <ComponentRef Id="cmpcc27ffe7b25a44d2a970b0f4026931e4" />
+      <ComponentRef Id="cmp6156182d22ed4c63b89c90cfc9bafec8" />
+      <ComponentRef Id="cmpa66ed56e446a48aabcf51e0ca69bd432" />
+      <ComponentRef Id="cmp5b53f10b9fa74706a09b528c2c14d8f6" />
+      <ComponentRef Id="cmp3ff77de823c8433a93e9b381a2ecc6f5" />
+      <ComponentRef Id="cmp98af561684e146beaf93f2214cd86e11" />
+      <ComponentRef Id="cmpe9a23e49c512420c8b4332533397383d" />
+      <ComponentRef Id="cmpc754e60669dc4d9698774c1a944ab7ba" />
+      <ComponentRef Id="cmpbe94b9d573b349fcb2e98ff0caea4d08" />
+      <ComponentRef Id="cmp3b70b453539c4d699d4bdbe59619eb70" />
+      <ComponentRef Id="cmpac2512695a11477ea2d045d4ffb15069" />
+      <ComponentRef Id="cmpec29c52c8e574f45bfc7e2a7651b1f24" />
+      <ComponentRef Id="cmp5f57c648ef2949d5a6f5d418f60018bf" />
+      <ComponentRef Id="cmp8db7d5e83c5843ec9dd0f9ebb737aad1" />
+      <ComponentRef Id="cmpd9d2762219e448599aad6a9dffd550ab" />
+      <ComponentRef Id="cmp9ef67cb1f4184a26a8eb38b79f82e948" />
+      <ComponentRef Id="cmp3cd791eb49ae47d3bda5740112b07f13" />
+      <ComponentRef Id="cmp1ca1f192272a4cfb99022ff52675af0d" />
+      <ComponentRef Id="cmp31af63bd82da4dfc92560cebe0e1a7d4" />
+      <ComponentRef Id="cmpb01ce6dd16174d2ba376383500011e54" />
+      <ComponentRef Id="cmp9101bf2cdee7411d8ffda3a500449276" />
+      <ComponentRef Id="cmp12222469cd914e6f8593a2cd1ef6ab21" />
+      <ComponentRef Id="cmpbd53e01d8ed04509853e2e654be9eb31" />
+      <ComponentRef Id="cmpa041a155d7e54635a5493b67fac94dce" />
+      <ComponentRef Id="cmp1758c1090ec04edfb853c3de3d8c42de" />
+      <ComponentRef Id="cmp394daa756bc64044aa567d64b0a358fa" />
+      <ComponentRef Id="cmp522782e1418745abbf32c81ae116be64" />
+      <ComponentRef Id="cmp342849a2a2ed4cd7bc6689f10eee891d" />
+      <ComponentRef Id="cmp0fa67ccc32e249bcbe40e259edbdfd8e" />
+      <ComponentRef Id="cmpcbd59dbe15f24a50ad3a96ca49dbf25c" />
+      <ComponentRef Id="cmp33d3d21967d342729e7f7bb4f3f48252" />
+    </Feature>
+    <Icon Id="ico09aec4cb4e6043eda8b90e09afffe833" SourceFile="C:\src\chuck-norris\installer\app.ico" />
+    <Property Id="ARPPRODUCTICON" Value="ico09aec4cb4e6043eda8b90e09afffe833" />
+    <Icon Id="icob860258ce9704e758d0d5549e5d106e5" SourceFile="C:\src\chuck-norris\installer\app.ico" />
+    <WixVariable Id="WixUILicenseRtf" Value="C:\src\chuck-norris\installer\eula.rtf" />
+    <WixVariable Id="WixUIBannerBmp" Value="C:\src\chuck-norris\installer\banner.png" />
+    <WixVariable Id="WixUIDialogBmp" Value="C:\src\chuck-norris\installer\welcome.png" />
+    <Property Id="WIXUI_INSTALLDIR" Value="dir89bc91ae67da43f685f683fc131561df" />
+    <UI>
+      <UIRef Id="WixUI_InstallDir" />
+    </UI>
+  </Product>
+</Wix>
