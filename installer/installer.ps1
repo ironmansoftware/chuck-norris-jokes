@@ -1,4 +1,4 @@
-Import-Module "C:\src\PowerShellToolsPro\PowerShellToolsPro.Cmdlets\bin\Debug\net462\PowerShellProTools.psd1"
+Import-Module PowerShellProTools
 
 $AppRoot = Join-Path $PSScriptRoot "..\app"
 
